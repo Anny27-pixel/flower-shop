@@ -2,10 +2,10 @@
 .box{
     display: flex;
     width: 1200px;
-    height: 850px;
+    height: 650px;
     flex-shrink: 0;
     background: rgba(229, 84, 115, 0.10);
-
+  
 }
 
 .box h1{
@@ -33,6 +33,7 @@ margin-left:  120px;
     height: 600px;
     flex-shrink: 0;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 .shop-btn{
     display: flex;
@@ -46,4 +47,23 @@ margin-left:  120px;
 color: white;
 font-size: 18px;
 font-weight: 600;
+}
+.features h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+}
+.features p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
